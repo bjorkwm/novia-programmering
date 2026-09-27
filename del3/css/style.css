@@ -1,46 +1,64 @@
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	background-color: #212529;
+    background-color: #212529;
 }
 
 #site-main {
-	
+    
 }
 
 .calendar-door {
-	width: 100px;
-	height: 100px;
-	border: 1px solid black;
-	text-align: center;
-	line-height: 100px;
-	float: left;
-	margin: 10px;
-	background-color: white;
-	background-size: contain;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.calendar-door:hover {
+    transform: scale(1.05);
 }
 
 .door-number {
-	margin: 0;
+    margin: 0;
+    color: #333;
 }
 
 #calendar-container {
-	width: 600px;
-	margin: 50px auto;
+    width: 600px;
+    margin: 50px auto;
 }
 
 #calendar-header {
-	width: 600px;
-	margin: 50px auto;
-	background-color: white;
-	color: orange;
-	text-align: center;
-	padding: 5px;
+    width: 600px;
+    margin: 0 auto 20px;
+    background-color: white;
+    color: orange;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
 }
+
 #calendar-body {
-	width: 600px;
-	background-color: #DC7D1D;
-	overflow: auto;
+    width: 600px;
+    background-color: #DC7D1D;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.calendar-door.opened {
+    opacity: 0.7;
+    cursor: default;
 }

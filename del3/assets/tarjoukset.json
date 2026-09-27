@@ -1,12 +1,28 @@
-{"christmasSpecials":[
-  { "label":"Läppärit -20%", "code":"ASDJKL9023" },
-  { "label":"Ilmainen toimitus", "code":"VNKJDO0987" },
-  { "label":"Muistikortit ja muistitikut puoleen hintaan", "code":"IOSDFJ872" },
-  { "label":"Geforce näytönohjaimet -30%", "code":"KLHJ8976" },
-  { "label":"Samsung 55'' televisio 399€", "code":"SDFJKL9080" },
-  { "label":"Robottipölynimuri 129€", "code":"PQWO23894" },
-  { "label":"Verkkotuotteet -40%", "code":"Doe" },
-  { "label":"1Tb SSD 49€", "code":"Doe" },
-  { "label":"Intel tuotteet -22%", "code":"Doe" },
-  { "label":"AMD 6600XT 249€", "code":"Doe" }  
-]}
+{
+  "christmasSpecials": [
+    { "label": "Läppärit -20%", "code": "ASDJKL9023" },
+    { "label": "Ilmainen toimitus", "code": "VNKJDO0987" },
+    { "label": "Muistikortit ja muistitikut puoleen hintaan", "code": "IOSDFJ872" },
+    { "label": "Geforce näytönohjaimet -30%", "code": "KLHJ8976" },
+    { "label": "Samsung 55'' televisio 399€", "code": "SDFJKL9080" },
+    { "label": "Robottipölynimuri 129€", "code": "PQWO23894" },
+    { "label": "Verkkotuotteet -40%", "code": "QWER5678" },
+    { "label": "1Tb SSD 49€", "code": "TYUI9012" },
+    { "label": "Intel tuotteet -22%", "code": "ASDF3456" },
+    { "label": "AMD 6600XT 249€", "code": "ZXCV7890" },
+    { "label": "Nvidian GPU -25%", "code": "QWER1234" },
+    { "label": "Trådlöst headset -15%", "code": "TYUI5678" },
+    { "label": "Mekanisk tangentbord 79€", "code": "ASDF9012" },
+    { "label": "Gaming mus -20%", "code": "ZXCV3456" },
+    { "label": "Skärm 24'' -10%", "code": "QWER7890" },
+    { "label": "USB-kabel set 4.99€", "code": "TYUI1234" },
+    { "label": "Webcam 1080p 39€", "code": "ASDF5678" },
+    { "label": "Mikrofon -30%", "code": "ZXCV9012" },
+    { "label": "Monitor arm 49€", "code": "QWER3456" },
+    { "label": "Dockningsstation -20%", "code": "TYUI7890" },
+    { "label": "Powerbank 20000mAh 29€", "code": "ASDF1234" },
+    { "label": "USB-C hub -25%", "code": "ZXCV5678" },
+    { "label": "Skärmskydd glas 9.99€", "code": "QWER9012" },
+    { "label": "Laptop väska -15%", "code": "TYUI3456" }
+  ]
+}

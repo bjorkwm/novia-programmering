@@ -15,7 +15,7 @@ fetch('assets/tarjoukset.json')
     shuffleDoors();
   })
   .catch(error => {
-    console.error('Kunde inte läsa JSON-filen:', error);
+    console.error('JSON-filen:', error);
   });
 
 function createDoors() {
@@ -57,7 +57,7 @@ function showReward(doorNumber) {
   const reward = rewards[doorNumber - 1];
 
   if (!reward) {
-    alert('Ingen belöning finns för denna lucka.');
+    alert('Belöning.');
     return;
   }
 

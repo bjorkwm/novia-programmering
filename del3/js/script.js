@@ -2,7 +2,6 @@ const calendarBody = document.getElementById('calendar-body');
 
 let rewards = [];
 
-// Hämta JSON-filen
 fetch('assets/tarjoukset.json')
   .then(response => response.json())
   .then(data => {
